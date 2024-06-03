@@ -177,7 +177,6 @@ hr{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: fit-content;
 }
 
 .Slists > ul{
@@ -194,9 +193,9 @@ ul > li{
   font-weight: bold;
   list-style-type: none;
   border-radius: 20px;
-  width: 150%;
   padding: 10px;
   margin: 20px;
+  margin-left: 0;
 }
 
 button{
@@ -576,11 +575,12 @@ z
 
 
   ul{
-    width: auto;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
   }
 
   ul > li{
-    background-color: transparent !important;
+    background-color: white !important;
     width: 100%;
     color: black !important;
   }
