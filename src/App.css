@@ -643,6 +643,11 @@ z
     width: 100%;
   }
 
+  .Cibox .info h1{
+    font-weight: 700;
+    font-size: fit-content;
+  }
+
   .Cibox .info p{
     font-weight: 400;
     font-size: 20%;
