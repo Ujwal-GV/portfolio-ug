@@ -492,7 +492,10 @@ hr{
   font-weight: 600;
   letter-spacing: 2px;
   display: inline-block;
+  font-size: 80%;
   background-color: cadetblue;
+  width: fit-content;
+  height: fit-content;
   text-align: center;
   padding: 10px 20px;
   border-radius: 10px;
