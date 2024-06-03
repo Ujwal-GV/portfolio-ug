@@ -455,6 +455,7 @@ hr{
   padding: 30px;
   display: flex;
   align-items: center;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   transition: 1s;
