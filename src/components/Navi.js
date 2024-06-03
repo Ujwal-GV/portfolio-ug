@@ -20,7 +20,7 @@ export default function Navigation(props) {
   // }, [])
   
   return (
-    <Navbar expand="lg" className="nav" data-bs-theme={props.mode} >
+    <Navbar expand="lg" className="nav" data-bs-theme={props.mode} id="navigation">
       <Container className="cont">
         <Navbar.Brand className="title"><b>{props.title}</b></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

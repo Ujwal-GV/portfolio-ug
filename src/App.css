@@ -521,6 +521,7 @@ hr{
 
 .nav-footer > .box{
   margin: 0;
+  font-size: 70%;
   display: inline-block;
 }
 
@@ -529,9 +530,26 @@ hr{
   text-decoration: none;
 }
 
+#arrow{
+  height: 5vh;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width: 5vh;
+  margin: 2%;
+  border-radius: 10px;
+}
+
 @media (max-width:1000px){
   .mySelf{
     flex-direction: column;
+  }
+
+  .navbar-toggler-icon{
+    color: white;
+    outline: 2px solid white;
   }
 
   .cards{
