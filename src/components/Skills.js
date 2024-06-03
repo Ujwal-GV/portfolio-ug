@@ -55,10 +55,10 @@ export default function Content(props) {
           <h2 data-aos="fade-up" style={myHead}>SOFT SKILLS</h2>
           <hr className='text-center'/>
           <ul className="lists text-center">
-            <li data-aos="fade-left" style={mySkills}>Communication_skills</li>
+            <li data-aos="fade-left" style={mySkills}>Communication skills</li>
             <li data-aos="fade-left" style={mySkills}>Creativity</li>
-            <li data-aos="fade-left" style={mySkills}>Motivated_attitude</li>
-            <li data-aos="fade-left" style={mySkills}>Multitasking_skills</li>
+            <li data-aos="fade-left" style={mySkills}>Motivated attitude</li>
+            <li data-aos="fade-left" style={mySkills}>Multitasking skills</li>
             <li data-aos="fade-left" style={mySkills}>Adaptability</li>
             </ul>
         </div>
