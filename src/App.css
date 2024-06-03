@@ -512,10 +512,16 @@ hr{
   box-shadow: 0 0 5px black;
   cursor: pointer;
 }
-z
+
+.nav-footer{
+  position: sticky;
+  bottom: 0;
+  height: 10vh;
+}
+
 .nav-footer > .box{
-  margin: 10px;
-  align-items: center;
+  margin: 0;
+  display: inline-block;
 }
 
 .nav-footer > .box > a{
