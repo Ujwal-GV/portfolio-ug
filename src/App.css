@@ -642,4 +642,10 @@ z
     padding: 0;
     width: 100%;
   }
+
+  .Cibox .info p{
+    font-weight: 400;
+    font-size: 200%;
+    color: aqua;
+  }
 }
