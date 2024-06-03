@@ -562,8 +562,11 @@ z
   }
 
   .Scard-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 100% !important;
-    background-color: white;
     border-radius: 30px;
     border: 1px solid black;
   }
@@ -575,8 +578,7 @@ z
 
 
   ul{
-    width: 100%;
-    background-color: rgb(255, 0, 0);
+    width: 90%;
   }
 
   ul > li{
