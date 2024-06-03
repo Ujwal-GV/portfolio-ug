@@ -322,7 +322,7 @@ hr{
 .Pboxes{
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
   height: auto;
   position: relative;
   justify-content: center;
@@ -614,13 +614,20 @@ z
 
   .Pboxes{
     flex-direction: column;
-    margin: 20px;
     width: 95%;
     background-color: transparent;
   }
 
   .Pboxes > .Pibox{
-    width: 80%;
+    position: inherit;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .Pibox > img{
+    width: 100%;
+    object-fit: contain;
   }
 
   .Cboxes{
