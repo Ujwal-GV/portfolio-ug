@@ -492,12 +492,13 @@ hr{
   font-weight: 600;
   letter-spacing: 2px;
   display: inline-block;
-  font-size: 80%;
+  font-size: 100%;
+  padding: 3%;
+  margin: 5%;
   background-color: cadetblue;
   width: fit-content;
   height: fit-content;
   text-align: center;
-  padding: 10px 20px;
   border-radius: 10px;
   color: aliceblue;
   transition: 0.5s;
