@@ -521,12 +521,13 @@ hr{
 
 .nav-footer > .box{
   margin: 0;
-  font-size: 70%;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px;
 }
 
 .nav-footer > .box > a{
-  color: white;
   text-decoration: none;
 }
 
@@ -540,6 +541,10 @@ hr{
   width: 5vh;
   margin: 2%;
   border-radius: 10px;
+}
+
+.nav-footer > .box > a::hover{
+  cursor: pointer;
 }
 
 @media (max-width:1000px){
