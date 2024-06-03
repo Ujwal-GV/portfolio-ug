@@ -417,7 +417,7 @@ hr{
 .Cboxes{
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
   height: auto;
   position: relative;
   justify-content: center;
@@ -430,8 +430,7 @@ hr{
 
 .Cibox{
   border: 2px solid black;
-  width: 40%;
-  height: 400px;
+  width: 100%;
   margin: 20px;
   overflow: hidden;
   position: relative;
@@ -440,13 +439,9 @@ hr{
 }
 
 .Cibox img{
-  object-fit: fill;
-}
-
-.Cibox img{
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .Cibox .info{
@@ -472,7 +467,7 @@ hr{
   height: fit-content;
   border-radius: 10px;
   padding: 5px;
-  font-size: 100%;
+  font-size: 80%;
   position: relative;
   text-align: center;
   text-transform: capitalize;
@@ -480,7 +475,7 @@ hr{
 
 .Cibox .info p{
   font-weight: 400;
-  font-size: 0.7em;
+  font-size: 60%;
 }
 
 .Cibox:hover .info{
