@@ -195,8 +195,8 @@ ul > li{
   list-style-type: none;
   border-radius: 20px;
   width: 150%;
-  padding: 8%;
-  margin: 5%;
+  padding: 10px;
+  margin: 20px;
 }
 
 button{
