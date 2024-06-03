@@ -454,6 +454,7 @@ hr{
   backdrop-filter: blur(5px);
   padding: 30px;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   transition: 1s;
@@ -466,8 +467,9 @@ hr{
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
-  padding: 5px;
-  font-size: 80%;
+  padding: 3%;
+  margin: 5%;
+  font-size: 100%;
   position: relative;
   text-align: center;
   text-transform: capitalize;
@@ -475,7 +477,7 @@ hr{
 
 .Cibox .info p{
   font-weight: 400;
-  font-size: 40%;
+  font-size: 100%;
 }
 
 .Cibox:hover .info{
@@ -645,11 +647,11 @@ z
 
   .Cibox .info h1{
     font-weight: 700;
-    font-size: fit-content;
+    font-size: 50%;
   }
 
   .Cibox .info p{
     font-weight: 400;
-    font-size: fit-content;
+    font-size: 50%;
   }
 }
