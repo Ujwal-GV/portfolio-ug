@@ -650,6 +650,6 @@ z
 
   .Cibox .info p{
     font-weight: 400;
-    font-size: 50%;
+    font-size: fit-content;
   }
 }
