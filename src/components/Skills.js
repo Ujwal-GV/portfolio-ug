@@ -45,7 +45,7 @@ export default function Content(props) {
           <li data-aos="fade-right" style={mySkills}>nodeJS</li>
           <li data-aos="fade-right" style={mySkills}>Java & Python</li>
           <li data-aos="fade-right" style={mySkills}>HTML, CSS, JS & PHP</li>
-          <li data-aos="fade-right" style={mySkills}>C_Programming</li>
+          <li data-aos="fade-right" style={mySkills}>C Programming</li>
           {/* <li data-aos="fade-right" style={mySkills}>HTML & CSS</li>
           <li data-aos="fade-right" style={mySkills}>Basic_Excel & Powerpoint_knowledge</li>
           <li data-aos="fade-right" style={mySkills}>Power_BI</li> */}
