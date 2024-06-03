@@ -191,13 +191,12 @@ hr{
 }
 
 ul > li{
-  font-size: 18px;
   font-weight: bold;
   list-style-type: none;
   border-radius: 20px;
   width: 150%;
-  padding: 10px;
-  margin: 20px;
+  padding: 8%;
+  margin: 5%;
 }
 
 button{
