@@ -36,11 +36,11 @@ export default function Content(props) {
 
   return (
     <div className="containerC" id="skills">
-      <div className="cards">
-        <div className="card-menu" data-aos="fade-up">
+      <div className="Scards">
+        <div className="Scard-menu" data-aos="fade-up">
         <h2 data-aos="fade-up" style={myHead}>TECHNICAL SKILLS</h2>
         <hr />
-        <ul className="lists text-center">
+        <ul className="Slists text-center">
           <li data-aos="fade-right" style={mySkills} >ReactJS</li>
           <li data-aos="fade-right" style={mySkills}>nodeJS</li>
           <li data-aos="fade-right" style={mySkills}>Java & Python</li>
@@ -51,10 +51,10 @@ export default function Content(props) {
           <li data-aos="fade-right" style={mySkills}>Power_BI</li> */}
           </ul>
         </div>
-        <div className="card-menu" data-aos="fade-up">
+        <div className="Scard-menu" data-aos="fade-up">
           <h2 data-aos="fade-up" style={myHead}>SOFT SKILLS</h2>
           <hr className='text-center'/>
-          <ul className="lists text-center">
+          <ul className="Slists text-center">
             <li data-aos="fade-left" style={mySkills}>Communication skills</li>
             <li data-aos="fade-left" style={mySkills}>Creativity</li>
             <li data-aos="fade-left" style={mySkills}>Motivated attitude</li>

@@ -133,7 +133,57 @@ hr{
   1px 1px 1px black;
 }
 
-ul{
+.Scards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  z-index: 100;
+}
+
+.Scard-menu{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  border: transparent;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+hr{
+  width: 90%;
+}
+
+.Scard-menu > h2{
+  font-family: 'Times New Roman', Times, serif;
+  width: 90%;
+  height: 80px;
+  padding: 20px;
+  margin-top: 20px;
+  color: aliceblue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-shadow: 1px 1px 1px white,
+  1px 1px 1px black;
+}
+
+.Slists{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.Slists > ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   list-style-type: none;
   font-family: monospace;
@@ -143,11 +193,11 @@ ul{
 ul > li{
   font-size: 18px;
   font-weight: bold;
+  list-style-type: none;
   border-radius: 20px;
   width: 150%;
   padding: 10px;
   margin: 20px;
-  margin-left: -30%;
 }
 
 button{
@@ -513,8 +563,6 @@ z
     background-color: transparent !important;
     width: 100%;
     color: black !important;
-    position: relative;
-    margin-left: auto;
   }
 
   .msgBox{
