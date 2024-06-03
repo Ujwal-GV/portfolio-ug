@@ -629,13 +629,11 @@ z
     flex-direction: column;
     margin: 20px;
     width: 95%;
-    height: fit-content;
     background-color: transparent;
   }
 
   .Cboxes > .Cibox{
     width: 100%;
-    height: fit-content;
   }
 
   .Cboxes > .Cibox{
