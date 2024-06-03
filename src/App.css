@@ -638,6 +638,13 @@ z
   }
 
   .Cboxes > .Cibox{
-    width: 80%;
+    width: 100%;
+  }
+
+  .Cboxes > .Cibox{
+    position: inherit;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 }
