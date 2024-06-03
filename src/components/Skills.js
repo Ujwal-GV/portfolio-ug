@@ -20,7 +20,7 @@ export default function Content(props) {
 
   const mySkills = {
     color: color,
-    fontSize:"20px", 
+    fontSize:"100%", 
     backgroundColor: "white",
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)"
   }

@@ -12,7 +12,7 @@ export default function Project(props) {
 
   const myProject = {
     color: color,
-    fontSize:"20px", 
+    fontSize:"100%", 
     backgroundColor: "#ffffff",
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)"
   }
