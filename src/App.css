@@ -627,7 +627,7 @@ z
 
   .Pibox > img{
     width: 100%;
-    object-fit: cover !important;
+    object-fit: contain !important;
   }
 
   .Cboxes{
