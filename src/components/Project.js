@@ -57,7 +57,7 @@ export default function Project(props) {
                 <p>Streamline event planning with an efficient banquet hall booking system. Simplify reservations, manage availability, and ensure seamless event coordination.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>PHP, MySql, HTML, JS </b> </p>
                 <p>ROLE: <b>FULL STACK DEVELOPER</b></p>
-                <a href="https://github.com/Ujwal-GV/banquetHall/tree/master" target="_blank" ref="noreferrer">GIT CODE</a>
+                <a href="https://github.com/Ujwal-GV/banquetHall/tree/master" target="_blank" rel="noreferrer">GIT CODE</a>
             </div>
           </div>
 
