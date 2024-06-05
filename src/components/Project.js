@@ -35,7 +35,7 @@ export default function Project(props) {
                 <p>Create a stunning online showcase for your photography talents. Easily upload and display your captivating images with our customizable templates.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>ReactJS, HTML, CSS, JS, Bootstrap </b> </p>
                 <p>ROLE: <b>MERN STACK DEVELOPER</b></p>
-                <a href="https://github.com/Ujwal-GV/photography-portfolio">GIT CODE</a>
+                <a href="https://github.com/Ujwal-GV/photography-portfolio" target="_blank">GIT CODE</a>
             </div>
         </div>
 
