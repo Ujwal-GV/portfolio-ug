@@ -35,7 +35,7 @@ export default function Project(props) {
                 <p>Create a stunning online showcase for your photography talents. Easily upload and display your captivating images with our customizable templates.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>ReactJS, HTML, CSS, JS, Bootstrap </b> </p>
                 <p>ROLE: <b>MERN STACK DEVELOPER</b></p>
-                <a href="https://github.com/Ujwal-GV/photography-portfolio" target="_blank">GIT CODE</a>
+                <a href="https://github.com/Ujwal-GV/photography-portfolio" target="_blank" rel="noreferrer">GIT CODE</a>
             </div>
         </div>
 
@@ -57,7 +57,7 @@ export default function Project(props) {
                 <p>Streamline event planning with an efficient banquet hall booking system. Simplify reservations, manage availability, and ensure seamless event coordination.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>PHP, MySql, HTML, JS </b> </p>
                 <p>ROLE: <b>FULL STACK DEVELOPER</b></p>
-                <a href="www.google.com">GIT CODE</a>
+                <a href="https://github.com/Ujwal-GV/banquetHall/tree/master" target="_blank" ref="noreferrer">GIT CODE</a>
             </div>
           </div>
 
