@@ -46,7 +46,7 @@ export default function Project(props) {
                 <p>Implement Convolutional Neural Networks to identify defects on solar cell surfaces, optimizing efficiency and quality control in solar production.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>Python, TensorFlow/Keras, HTML, CSS, JavaScript </b> </p>
                 <p>ROLE: <b>FULL STACK DEVELOPER</b></p>
-                <a href="www.google.com">GIT CODE</a>
+                <a href="https://github.com/Ujwal-GV/NeuralNetwork-Solarcell">GIT CODE</a>
             </div>
           </div>
 
