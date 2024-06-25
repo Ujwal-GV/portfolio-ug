@@ -31,7 +31,7 @@ export default function About(props) {
 
         <div className="box" data-aos="fade-left">
           <div className="ibox">
-          <img src="/UG.jpg" alt="ujwal" />
+          <img src="/me.jpg" alt="ujwal" />
           </div>
         </div>
 
