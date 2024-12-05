@@ -361,7 +361,6 @@ hr{
   position: absolute;
   background-color: rgba(255, 255, 255, 0);
   backdrop-filter: blur(5px);
-  inset: 0rem;  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -373,10 +372,8 @@ hr{
 .Pibox .info h1{
   font-weight: 700;
   background-color: rgb(241, 235, 235);
-  width: fit-content;
-  height: fit-content;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   font-size: 100%;
@@ -388,6 +385,8 @@ hr{
 .Pibox .info p{
   font-weight: 400;
   font-size: 0.7em;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .Pibox:hover .info{
