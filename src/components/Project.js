@@ -31,6 +31,20 @@ export default function Project(props) {
         <div class="Pibox">
             <img src="/MERN.png" alt="" />
             <div class="info">
+                <h1>{props.p5}</h1>
+                <p>This, MERN-stack application is designed to manage employee details for company. It includes functionality for users to view employee lists, search an employee, edit employee details and delete an employee details. Admin users can make these CRUD operations..</p>
+                <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>ReactJS, HTML, CSS, JS, TailwindCSS, ExpressJS, NodeJS, MongoDB </b> </p>
+                <p>ROLE: <b>MERN STACK DEVELOPER</b></p>
+                <div className='demo'>
+                  <a href="https://github.com/Ujwal-GV/EmployeeDetailsFrontend" target="_blank" rel="noreferrer">GIT CODE</a>
+                  <a href="https://employee-details-one.vercel.app/" target="_blank" rel="noreferrer">VIEW DEMO</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="Pibox">
+            <img src="/MERN.png" alt="" />
+            <div class="info">
                 <h1>{props.p1}</h1>
                 <p>Create a stunning online showcase for your photography talents. Easily upload and display your captivating images with our customizable templates.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>ReactJS, HTML, CSS, JS, Bootstrap </b> </p>
@@ -46,7 +60,10 @@ export default function Project(props) {
                 <p>Implement Convolutional Neural Networks to identify defects on solar cell surfaces, optimizing efficiency and quality control in solar production.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>Python, TensorFlow/Keras, HTML, CSS, JavaScript </b> </p>
                 <p>ROLE: <b>FULL STACK DEVELOPER</b></p>
-                <a href="https://github.com/Ujwal-GV/NeuralNetwork-Solarcell">GIT CODE</a>
+                <div className='demo'>
+                  <a href="https://github.com/Ujwal-GV/NeuralNetwork-Solarcell">GIT CODE</a>
+                  <a href="https://solar-cell-surface-defect-detection.onrender.com/" target="_blank" rel="noreferrer">VIEW DEMO</a>
+                </div>
             </div>
           </div>
 
@@ -68,7 +85,7 @@ export default function Project(props) {
                 <p>Enjoy addictive gameplay with the Candy Crush application. Match colorful candies only with level 1.</p>
                 <p>TECHNOLOGIES and FRAMEWORKS<br /> <b>JAVA, XML </b> </p>
                 <p>ROLE: <b>BUILD ENGINEER</b></p>
-                <a href="www.google.com">GIT CODE</a>
+                <a href="https://github.com/Ujwal-GV/banquetHall/tree/master" target="_blank" rel="noreferrer">GIT CODE</a>
             </div>
           </div>
         </div>

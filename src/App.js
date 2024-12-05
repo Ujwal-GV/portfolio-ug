@@ -19,6 +19,7 @@ function App() {
   const project2 = "SOLAR CELL SURFACE DEFECT DETECTION USING CNN";
   const project3 = "BANQUET HALL BOOKING SYSTEM";
   const project4 = "CANDY CRUSH APPLICATION (L1)";
+  const project5 = "Employee Management System";
   const certficate1 = "FULL STACK WEB DEVELOPMENT INTERN";
   const certificate2 = "MACHINE LEARNING AND ARTIFICIAL INTELLLIGENCE";
 
@@ -48,7 +49,7 @@ function App() {
     <Navigation title="UG_PORTFOLIO" mode={mode} toggle={toggleMode} text={text}/>
     <About name="UJWAL GOWDA V" info={content} color={color} bColor={bColor} mode={mode}/>
     <Skills color={color} colo={colo} mode={mode}/>
-    <Project color={color} colo={colo} mode={mode} p1={project1} p2={project2} p3={project3} p4={project4} />
+    <Project color={color} colo={colo} mode={mode} p1={project1} p2={project2} p3={project3} p4={project4} p5={project5} />
     <Certificates color={color} colo={colo} mode={mode} c1={certficate1} c2={certificate2}/>
     <Connect/>
     </>

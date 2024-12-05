@@ -393,6 +393,20 @@ hr{
   transition: 1s;
 }
 
+.Pboxes > .Pibox > .info {
+  margin-top: 0px;
+  margin-bottom: auto;
+  overflow-y: auto;
+}
+
+.Pboxes > .Pibox > .info > .demo {
+  display: flex;
+  padding: 0.2px;
+  align-items: flex-start; 
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
 .Pboxes .Pibox .info a{
   position: relative;
   text-decoration: none;
@@ -401,10 +415,12 @@ hr{
   display: inline-block;
   background-color: cadetblue;
   text-align: center;
-  padding: 10px 20px;
+  padding: 5px 5px;
   border-radius: 10px;
   color: aliceblue;
   transition: 0.5s;
+  margin-bottom: 0.9rem;
+  font-size: small;
   box-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
@@ -491,10 +507,10 @@ hr{
   position: relative;
   text-decoration: none;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   display: inline-block;
-  font-size: 100%;
-  padding: 3%;
+  padding: 5px 10px;
+  font-size: small;
   margin: 5%;
   background-color: cadetblue;
   width: fit-content;
@@ -649,7 +665,7 @@ hr{
 
   .Pboxes{
     flex-direction: column;
-    width: 95%;
+    width: 100%;
     background-color: transparent;
   }
 
@@ -658,6 +674,30 @@ hr{
     margin: 0;
     padding: 0;
     width: 100%;
+  }
+
+  .Pboxes > .Pibox > .info {
+    margin-top: 0px;
+    margin-bottom: auto;
+    overflow-y: auto;
+  }
+
+  .Pboxes > .Pibox > .info > .demo {
+    display: flex;
+    padding: 0.2px;
+    align-items: start; 
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
+
+  .Pboxes > .Pibox > .info > .demo > a{
+    padding: 5px;
+    font-size: 0.6rem;
+  }
+
+  .Pboxes > .Pibox > .info > a{
+    padding: 5px;
+    font-size: 0.6rem;
   }
 
   .Pibox > img{
@@ -691,5 +731,10 @@ hr{
   .Cibox .info p{
     font-weight: 400;
     font-size: 50%;
+  }
+
+  .Cboxes > .Cibox > .info > a {
+    padding: 5px 5px;
+    font-size: 0.6rem;
   }
 }
