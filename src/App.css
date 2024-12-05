@@ -545,6 +545,7 @@ hr{
   justify-content: center;
   margin: 1px;
   z-index: 100000;
+  font-size: medium;
 }
 
 .nav-footer > .box > a{
@@ -553,7 +554,7 @@ hr{
 }
 
 #arrow{
-  height: 5vh;
+  height: 2vh;
   font-size: 100%;
   display: flex;
   justify-content: center;
@@ -562,6 +563,8 @@ hr{
   width: 5vh;
   margin: 2%;
   border-radius: 10px;
+  padding: 0.9rem;
+  padding-bottom: 1rem;
 }
 
 .nav-footer > .box > a::hover{
@@ -686,7 +689,7 @@ hr{
   .Pboxes > .Pibox > .info > .demo {
     display: flex;
     padding: 0.2px;
-    align-items: start; 
+    align-items: flex-start; 
     justify-content: space-around;
     gap: 0.5rem;
   }
@@ -739,16 +742,7 @@ hr{
     font-size: 0.6rem;
   }
 
-  .nav-footer > .box{
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1px;
-    z-index: 100000;
-  }
-
-  .nav-footer > .box > a{
+  .nav-footer > .box {
     font-size: small;
   }
 }
